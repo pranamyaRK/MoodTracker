@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center_horizontal"
+    android:background="@color/Magnolia">
+
+    <!-- Greeting Text -->
+    <TextView
+        android:id="@+id/usernameGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_hello"
+        android:textAlignment="center"
+        android:paddingBottom="8dp"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_title"
+        android:paddingBottom="16dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <!-- Row of Emojis -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/BtnJoyful"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/joyful"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/text_joyful" />
+
+        <ImageButton
+            android:id="@+id/BtnHappy"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/happy"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/text_happy" />
+
+        <ImageButton
+            android:id="@+id/BtnMeh"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/meh"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/text_meh" />
+
+        <ImageButton
+            android:id="@+id/BtnSad"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/sad"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/text_sad" />
+
+        <ImageButton
+            android:id="@+id/BtnCrying"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/crying"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/text_crying" />
+    </LinearLayout>
+
+    <!-- Text Field for Journal Entry -->
+    <EditText
+        android:id="@+id/journalEntryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/text_enter_text"
+        android:gravity="start"
+        android:padding="16dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/multiline_edittext_background"
+        android:maxLines="8"/>
+
+    <Button
+        android:id="@+id/BtnSaveJournal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/text_save_journal"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:background="@color/TropicalIndigo"
+        android:textColor="@color/Magnolia"/>
+
+    <Button
+        android:id="@+id/BtnRedirectToActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_activity_entry"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:background="@color/TropicalIndigo"
+        android:textColor="@color/Magnolia"/>
+
+</LinearLayout>

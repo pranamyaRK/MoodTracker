@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">MoodTracker</string>
+    <string name="home">Home</string>
+    <string name="journal">Journal Entries</string>
+    <string name="analytics">Analytics Dashboard</string>
+    <string name="settings">Settings</string>
+
+    <string name="text_app_start">Personalized Mood Tracker and Journal</string>
+    <string name="heading_register">Let’s Get Started!</string>
+    <string name="hint_name">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_signin">Sign In</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+
+    <string name="image_logo">Image Logo</string>
+    <string name="content_desc_logo">Picture of logo</string>
+    <string name="text_hello">Welcome, %1$s!</string>
+    <string name="text_title">How are you feeling today?</string>
+    <string name="text_enter_text">Write about today here&#8230;</string>
+    <string name="text_journal_entry">Add journal entry</string>
+    <string name="text_activity_entry">Add activity entry</string>
+    <string name="text_save_journal">Save journal entry</string>
+    <string name="text_save_activity">Save activity entry</string>
+    <string name="text_joyful">joyful</string>
+    <string name="text_happy">happy</string>
+    <string name="text_meh">meh</string>
+    <string name="text_sad">sad</string>
+    <string name="text_crying">crying</string>
+
+    <string name="text_journal_heading">All Journal Entries</string>
+    <string name="button_add_journal">Add journal entry for today</string>
+    <string name="button_add_activity">Add activity for today</string>
+    <string name="text_prev_heading">Previous Entries</string>
+
+    <string name="text_date">DD/MM/YYYY</string>
+    <string name="button_view_journal">View journal entry</string>
+    <string name="button_view_activity">View activity</string>
+
+    <string name="text_analytics_heading">Analytics Dashboard</string>
+    <string name="content_desc_mood">mood chart</string>
+    <string name="content_desc_activity">Activity Breakdown</string>
+    <string name="text_rec_heading">Recommended Activities</string>
+    <string name="text_rec_activity">Recommended Activity</string>
+
+    <string name="text_settings_heading">Settings</string>
+    <string name="settings_username">%1$s</string>
+    <string name="settings_email">%1$s</string>
+    <string name="content_desc_pfp">Profile Picture</string>
+    <string name="button_edit_profile">Edit Profile</string>
+    <string name="button_notifications">Notifications</string>
+    <string name="button_privacy">Privacy Settings</string>
+    <string name="button_logout">Log Out</string>
+    <string name="button_delete_account">Delete Account</string>
+
+    <string name="text_activity_heading">What have you been up to?</string>
+    <string name="text_activity_title">Select activities </string>
+    <string name="swimming_activity">🏊‍</string>
+    <string name="running_activity">🏃‍</string>
+    <string name="tennis_activity">🎾</string>
+    <string name="television_activity">️📺</string>
+    <string name="sleeping_activity">🛌</string>
+    <string name="skateboard_activity">🛹</string>
+    <string name="hockey_activity">🏑</string>
+    <string name="soccer_activity">⚽</string>
+    <string name="rugby_activity">🏈</string>
+    <string name="cricket_activity">🏏</string>
+    <string name="swimming_desc">Swimming</string>
+    <string name="running_desc">Running</string>
+    <string name="tennis_desc">Tennis</string>
+    <string name="television_desc">Television</string>
+    <string name="sleeping_desc">Sleeping</string>
+    <string name="skateboard_desc">Skateboard</string>
+    <string name="hockey_desc">Hockey</string>
+    <string name="soccer_desc">Soccer</string>
+    <string name="rugby_desc">Rugby</string>
+    <string name="cricket_desc">Cricket</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

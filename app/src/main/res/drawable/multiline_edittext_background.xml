@@ -1,0 +1,15 @@
+<!-- res/drawable/dotted_rounded_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color of the EditText -->
+    <solid android:color="@color/Periwinkle" />
+
+    <!-- Rounded corners -->
+    <corners android:radius="16dp" />
+
+    <!-- Dotted border -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/FloralLavender"
+        android:dashWidth="4dp"
+        android:dashGap="8dp" />
+</shape>

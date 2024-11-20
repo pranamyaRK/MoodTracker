@@ -1,0 +1,52 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:label="Home Fragment"
+        android:name="com.example.moodtracker.HomeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_activityFragment"
+            app:destination="@id/activityFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/activityFragment"
+        android:label="Activity Fragment"
+        android:name="com.example.moodtracker.ActivityFragment"
+        tools:layout="@layout/fragment_activity" >
+        <action
+            android:id="@+id/action_activityFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/journalFragment"
+        android:label="Journal Fragment"
+        android:name="com.example.moodtracker.JournalFragment"
+        tools:layout="@layout/fragment_journal" >
+        <action
+            android:id="@+id/action_journalFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_journalFragment_to_activityFragment"
+            app:destination="@id/activityFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/analyticsFragment"
+        android:label="Analytics Fragment"
+        android:name="com.example.moodtracker.AnalyticsFragment"
+        tools:layout="@layout/fragment_analytics" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:label="Settings Fragment"
+        android:name="com.example.moodtracker.SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
+

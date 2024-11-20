@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/Magnolia">
+    <!--    android:background="@drawable/background_gradient"-->
+
+    <ImageView
+        android:id="@+id/RegisterLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/tracker"
+        android:contentDescription="@string/content_desc_logo"/>
+
+    <TextView
+        android:id="@+id/RegisterStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/text_signin"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/UsernameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:autofillHints="false"
+        android:hint="@string/hint_name"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_edittext_background"
+        android:layout_marginHorizontal="24dp"
+        android:inputType="text"
+        android:drawableStart="@drawable/username_icon"
+        android:drawablePadding="8dp"/>
+
+    <EditText
+        android:id="@+id/PasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:hint="@string/hint_password"
+        android:autofillHints="false"
+        android:inputType="textPassword"
+        android:layout_marginHorizontal="24dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_edittext_background"
+        android:drawableStart="@drawable/password_icon"
+        android:drawablePadding="8dp"/>
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_login"
+        android:layout_marginTop="32dp"
+        android:textSize="24sp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@color/TropicalIndigo"
+        android:textColor="@color/Magnolia" />
+
+    <TextView
+        android:id="@+id/RedirectToRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/text_not_member"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

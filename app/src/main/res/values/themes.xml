@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MoodTracker" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/TropicalIndigo</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorSecondary">@color/FloralLavender</item>
+        <item name="colorOnBackground">@color/Magnolia</item>
+        <item name="colorAccent">@color/Amethyst</item>
+        <item name="colorButtonNormal">@color/TropicalIndigo</item>
+    </style>
+</resources>
